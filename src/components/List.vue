@@ -22,7 +22,7 @@ defineProps({
                 :class= "isCompleted ? 'text-green-600 hover:bg-green-400' : 'text-blue-600 hover:bg-blue-400'"
                 class="w-full px-4 py-2 font-bold text-center duration-500 bg-gray-300 rounded-lg hover:cursor-pointer hover:text-gray-200"
             >
-                {{todo.content}}
+                {{ todo.text }}
             </li>
           </ul>
         </div>
